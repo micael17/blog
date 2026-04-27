@@ -1,4 +1,4 @@
-![한미반도체 26% 폭등 - 오늘의 주요 이슈 정리](thumbnail_hanmi.png)
+![한미반도체 26% 폭등 - 오늘의 주요 이슈 정리](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/thumbnail_hanmi.png)
 
 # 한미반도체 오늘 26% 폭등, VI 발동 — 무슨 일이 있었나
 
