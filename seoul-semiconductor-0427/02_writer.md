@@ -37,7 +37,7 @@ date: 2026-04-27
 
 같은 날 루멘스, 큐에스아이, 광전자 등 엘이디 관련주들이 동반 상승했다는 점도 단일 종목 이슈가 아니라 테마성 흐름이라는 걸 보여준다.
 
-![서울반도체 4월 20일~27일 일자별 종가 추이 차트](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/seoul-semiconductor-0427-chart-price.png)
+![서울반도체 투자자별 매매동향 차트](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/seoul-semiconductor-0427-chart-investors.png)
 
 수치만 다시 정리해 보면,
 
