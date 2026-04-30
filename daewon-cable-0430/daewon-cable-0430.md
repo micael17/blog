@@ -1,3 +1,5 @@
+# [급등 이유] 대원전선 — 블룸에너지 깜짝 실적이 촉발한 AI 전력 인프라 테마
+
 ![대원전선 썸네일](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/daewon-cable-0430-thumbnail.png)
 *대원전선, AI 전력 인프라 수혜주 급등*
 

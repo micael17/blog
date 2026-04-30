@@ -1,3 +1,5 @@
+# [급등 이유] 남해화학 — 중국 황산 수출 금지, 비료 공급망 쇼크의 수혜주
+
 ![남해화학 썸네일](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/namhae-chemical-0430-thumbnail.png)
 *남해화학, 비료·유류株 공급망 쇼크에 강세*
 
