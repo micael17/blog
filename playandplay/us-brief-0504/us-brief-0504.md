@@ -1,0 +1,93 @@
+# [미국 브리핑] 2026-05-01 (금) — SaaS 실적 랠리에 나스닥 신고가, 기술주 강세 지속
+
+> - S&P 500 +0.29%, NASDAQ +0.89% 상승… 다우 -0.31% 소폭 하락
+> - 기술 섹터 +1.49%, 에너지 섹터 -1.34%로 섹터별 차별화 뚜렷
+> - 아틀라시안·트윌리오 실적 서프라이즈가 SaaS 전반 랠리 촉발
+
+---
+
+## 1. 지수 동향
+
+| 지수 | 종가 | 등락률 |
+|---|---|---|
+| S&P 500 | 7,230.12 | +0.29% |
+| NASDAQ | 25,114.44 | +0.89% |
+| 다우 | 49,499.27 | -0.31% |
+| WTI | $101.94 | -2.98% |
+| USD/KRW | 1,471.22 | -0.19% |
+
+S&P 500과 나스닥이 동반 신고가를 경신했다. 특히 나스닥은 아틀라시안(+29.58%), 트윌리오(+23.83%) 등 소프트웨어 기업들의 폭발적인 실적 서프라이즈에 힘입어 0.89% 상승하며 주요 지수 중 가장 강한 흐름을 보였다. 반면 다우는 -0.31% 하락하며 차별화된 모습을 나타냈다. WTI는 2.98% 급락하며 배럴당 101.94달러에 마감, 중동 리스크 완화 기대감이 반영된 것으로 풀이된다. 달러/원은 1,471원대로 소폭 하락하며 원화 강세를 나타냈다.
+
+---
+
+## 2. S&P 500 섹터 트리맵
+
+![SP500 sector treemap](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0504-sp500-treemap.png)
+
+11개 SPDR 섹터 ETF 중 기술(XLK, +1.49%)이 압도적인 강세를 보였다. 아틀라시안과 트윌리오를 필두로 한 SaaS 기업들의 실적 호조가 기술 섹터 전반에 훈풍을 불어넣었다. 임의소비재(XLY, +0.24%)와 커뮤니케이션(XLC, +0.18%)도 소폭 상승하며 강세 섹터에 이름을 올렸다.
+
+반면 에너지(XLE, -1.34%)는 WTI 급락의 직격탄을 맞으며 가장 부진했다. 이란-사우디 긴장 완화 기대감이 유가 하방 압력으로 작용했다. 산업재(XLI, -0.93%)와 유틸리티(XLU, -0.64%)도 하락세를 기록했다. 전체적으로 성장주 중심의 기술 섹터 쏠림 현상이 두드러진 하루였다.
+
+---
+
+## 3. NASDAQ-100 트리맵
+
+![NASDAQ-100 treemap](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0504-nasdaq-treemap.png)
+
+NDX-100 상위 30개 종목을 기준으로 한 트리맵에서도 기술주 강세가 확인된다. 아틀라시안(TEAM)과 트윌리오(TWLO)가 각각 +29.58%, +23.83%로 독보적인 상승률을 기록하며 SaaS 섹터의 폭발적 퍼포먼스를 주도했다. 레딧(RDDT, +13.07%)은 AI 광고·데이터 라이선스 매출 호조에 힘입어 급등했고, 비바시스템즈(VEEV, +10.02%)도 S&P 500 편입 호재를 앞두고 두 자릿수 상승률을 기록했다.
+
+빅테크 중에서는 메타(META)를 비롯한 커뮤니케이션 서비스 종목들이 상대적으로 양호한 흐름을 보였다. 반면 반도체 일부 종목과 하드웨어 섹터는 차익실현 매물이 출회되며 상대적으로 부진했다.
+
+---
+
+## 4. 주요 종목 동향
+
+### 4-1. 상승 종목
+
+- **아틀라시안** (`TEAM`, +29.58%): 시장 예상을 크게 상회하는 분기 실적과 낙관적인 연간 가이던스를 발표. SaaS 섹터 전반의 랠리를 촉발한 핵심 종목으로, 협업툴 수요가 AI 기능 통합과 함께 구조적으로 확대되고 있다는 평가.
+  출처: [Yahoo Finance](https://finance.yahoo.com/quote/TEAM/news/)
+  ![TEAM 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0504-team-30d.png)
+
+- **트윌리오** (`TWLO`, +23.83%): 1분기 순이익이 전년 동기 대비 350% 급증하며 4년 만의 최고가를 기록. AI 기반 커뮤니케이션 플랫폼으로의 전환이 성공적으로 진행 중이라는 평가 속에 다수의 월가 애널리스트가 목표주가를 상향 조정.
+  출처: [Yahoo Finance](https://finance.yahoo.com/quote/TWLO/news/)
+  ![TWLO 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0504-twlo-30d.png)
+
+- **레딧** (`RDDT`, +13.07%): 1분기 순이익이 680% 폭증하고 매출이 전년 동기 대비 69% 성장. AI 기반 광고 타겟팅과 데이터 라이선스 계약이 실적을 견인했으며, CEO 스티브 허프먼은 "레딧이 AI 혁명의 연료"라고 강조.
+  출처: [Yahoo Finance](https://finance.yahoo.com/quote/RDDT/news/)
+  ![RDDT 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0504-rddt-30d.png)
+
+- **비바시스템즈** (`VEEV`, +10.02%): 4분기 매출 8.36억 달러(+16% YoY)로 컨센서스 상회. 5월 7일 S&P 500 지수 공식 편입을 앞두고 패시브 자금 유입 기대감이 주가를 끌어올렸으며, 월가 컨센서스는 현 주가 대비 53% 상승 여력을 제시.
+  출처: [Yahoo Finance](https://finance.yahoo.com/quote/VEEV/news/)
+  ![VEEV 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0504-veev-30d.png)
+
+### 4-2. 하락 종목
+
+- **서밋테라퓨틱스** (`SMMT`, -24.91%): 비소세포폐암 치료제 '이보네스시맙(Ivonescimab)'의 FDA 승인 신청 이후 오히려 1.02억 달러 규모의 증자(Shelf Registration)를 발표하면서 주주가치 희석 우려가 급락을 초래. 바이오파마다이브는 이를 "자해적 실수(self-inflicted stumble)"로 평가.
+  출처: [Yahoo Finance](https://finance.yahoo.com/quote/SMMT/news/)
+  ![SMMT 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0504-smmt-30d.png)
+
+- **로블록스** (`RBLX`, -18.33%): 2026년 연간 매출 및 예약 가이던스를 대폭 하향 조정. 아동 안전 기능 강화를 위한 투자 확대가 사용자 성장률 둔화로 이어지고 있다는 우려에 뱅크오브아메리카(BofA)는 목표주가를 165달러에서 48달러로 대폭 하향.
+  출처: [Yahoo Finance](https://finance.yahoo.com/quote/RBLX/news/)
+  ![RBLX 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0504-rblx-30d.png)
+
+---
+
+## 5. 주요 뉴스
+
+- **S&P 500·나스닥 신고가 경신, 그러나 "신고가 매수는 더 위험해 보인다"** — 나스닥과 러셀2000의 신고가 랠리가 과열 양상을 보이고 있다는 경계론 제기. — [Yahoo Finance](https://finance.yahoo.com/news/)
+- **"S&P 500 어닝 시즌에서 배운 5가지"** — 실적 시즌 막바지, AI 수요·소비자 지출·마진 추이 등 핵심 인사이트 정리. — [Yahoo Finance](https://finance.yahoo.com/news/)
+- **트럼프 "미국, 호르무즈 해협 일부 선박 탈출 지원"** — 중동 긴장 완화 시그널에 WTI 2.98% 하락. — [Bloomberg](https://www.bloomberg.com/)
+- **카시카리 총재 "이란 전쟁, 연준의 금리 가이던스 제공 능력 제한"** — 지정학적 리스크가 통화정책 경로에 불확실성 추가. — [Yahoo Finance](https://finance.yahoo.com/news/)
+- **은행권, 데이터센터 부채 집중 위험 회피 위해 리스크 분산 추진** — AI 인프라 투자 관련 신용 리스크 확대 우려. — [Yahoo Finance](https://finance.yahoo.com/news/)
+
+---
+
+## 6. 오늘 국장 영향
+
+- SaaS·기술주 랠리가 한국 IT·소프트웨어 섹터에 긍정적 투자 심리를 제공할 전망. 특히 AI 기반 B2B 소프트웨어 기업들의 실적 호조는 국내 클라우드·SaaS 기업들의 밸류에이션 재평가 논리로 연결될 가능성.
+- WTI 2.98% 급락은 국내 정유·화학주의 단기 하방 압력으로 작용할 수 있으나, 동시에 수송비·원재료비 부담 완화라는 긍정적 측면도 존재. 항공·운송주에는 오히려 우호적.
+- 달러/원 1,471원대 안정세가 지속되며 외국인 수급 환경은 중립적. 다만 미국채 금리 동향과 5월 FOMC 의사록(5월 21일 공개 예정)을 앞두고 경계감도 공존.
+
+---
+
+* 본 포스팅은 개인 의견이며 투자 판단의 책임은 본인에게 있습니다.
