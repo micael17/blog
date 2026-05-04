@@ -55,6 +55,9 @@
 
 기관 주도의 매집 구간이 가격 급등으로 전환된 전형적 패턴이다.
 
+![수급 차트](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/cheryong-electric-0504-chart-investor.png)
+*제룡전기 투자자별 매매동향*
+
 ## 시황
 
 5월 4일 코스피는 사상 최고치를 경신하며 2% 급등 출발했다.
