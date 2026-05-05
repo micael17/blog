@@ -1,0 +1,5 @@
+# 파이프라인 실행 시 발생하는 임시 산출물 (post 폴더 안의 source.json은 트래킹됨)
+_scripts/poc_output.json
+_scripts/enriched_*.json
+_scripts/article_*.md
+_scripts/*.tmp
