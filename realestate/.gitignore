@@ -1,0 +1,13 @@
+.venv/
+.env
+data/
+*.pyc
+__pycache__/
+.DS_Store
+
+# PoC 출력 (이미 poc/.gitignore에 있지만 안전망)
+poc/.venv/
+poc/out/
+
+# 테스트 결과 (실제 발행 글은 commit, test slug만 제외)
+posts/*-test/
