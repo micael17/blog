@@ -83,30 +83,81 @@ PROMPT_TEMPLATE = """당신은 한국 개발자/기획자를 위한 GitHub 트�
 지금 작성 시작:"""
 
 
-def find_social_context(full_name, poc_path="poc_output.json"):
+def find_social_context(full_name, candidates):
+    """Build social context for a repo from already-loaded candidates dict.
+
+    Args:
+        full_name: 'owner/repo'
+        candidates: dict with 'hn' and 'reddit' keys (from collect_all())
+
+    Returns:
+        dict with hn_title, hn_score, hn_comments, hn_url, reddit_posts
+    """
     target = full_name.lower()
     hn_title, hn_score, hn_comments, hn_url = "(unknown)", 0, 0, ""
-    reddit_posts = []
-    try:
-        poc = json.load(open(poc_path))
-    except FileNotFoundError:
-        return {
-            "hn_title": hn_title, "hn_score": hn_score, "hn_comments": hn_comments,
-            "hn_url": hn_url, "reddit_posts": reddit_posts,
-        }
 
-    for h in poc.get("hn", []):
-        if h["repo"].lower() == target and h["score"] > hn_score:
-            hn_title = h["title"]
+    for h in candidates.get("hn", []):
+        if h["repo"].lower() == target and h.get("score", 0) > hn_score:
+            hn_title = h.get("title", "(unknown)")
             hn_score = h["score"]
-            hn_comments = h["comments"]
+            hn_comments = h.get("comments", 0)
             hn_url = h.get("hn_url", "")
 
-    reddit_posts = [r for r in poc.get("reddit", []) if r["repo"].lower() == target]
+    reddit_posts = [
+        r for r in candidates.get("reddit", [])
+        if r["repo"].lower() == target
+    ]
     return {
-        "hn_title": hn_title, "hn_score": hn_score, "hn_comments": hn_comments,
-        "hn_url": hn_url, "reddit_posts": reddit_posts,
+        "hn_title": hn_title,
+        "hn_score": hn_score,
+        "hn_comments": hn_comments,
+        "hn_url": hn_url,
+        "reddit_posts": reddit_posts,
     }
+
+
+def generate_article(enriched, social_ctx):
+    """Generate full article markdown (header + body + footer).
+
+    Args:
+        enriched: dict from enrich.py (repo metadata + README)
+        social_ctx: dict from find_social_context()
+
+    Returns:
+        Full assembled markdown string.
+    """
+    readme = enriched.get("readme") or "(README not available)"
+    if len(readme) > MAX_README_CHARS:
+        readme = readme[:MAX_README_CHARS] + "\n\n[... README truncated for length ...]"
+
+    reddit_section = ""
+    if social_ctx.get("reddit_posts"):
+        reddit_section = "- Reddit: " + ", ".join(
+            f"r/{r['subreddit']} ({r['score']} pts)"
+            for r in social_ctx["reddit_posts"]
+        )
+
+    prompt = PROMPT_TEMPLATE.format(
+        full_name=enriched.get("full_name") or "?",
+        description=enriched.get("description") or "(no description)",
+        stars=enriched.get("stars") or 0,
+        forks=enriched.get("forks") or 0,
+        open_issues=enriched.get("open_issues") or 0,
+        language=enriched.get("language") or "?",
+        topics=", ".join(enriched.get("topics") or []) or "-",
+        license=enriched.get("license") or "-",
+        created_at=enriched.get("created_at") or "-",
+        pushed_at=enriched.get("pushed_at") or "-",
+        homepage=enriched.get("homepage") or "-",
+        hn_title=social_ctx["hn_title"],
+        hn_score=social_ctx["hn_score"],
+        hn_comments=social_ctx["hn_comments"],
+        reddit_section=reddit_section,
+        readme=readme,
+    )
+
+    body = call_claude_cli(prompt)
+    return assemble(body, enriched, social_ctx)
 
 
 def build_header(repo, ctx):
@@ -191,63 +242,32 @@ def main():
     if len(sys.argv) > 1:
         enriched_path = sys.argv[1]
     else:
-        candidates = sorted(glob.glob("enriched_*.json"), key=os.path.getmtime, reverse=True)
-        if not candidates:
+        candidates_files = sorted(glob.glob("enriched_*.json"), key=os.path.getmtime, reverse=True)
+        if not candidates_files:
             raise SystemExit("no enriched_*.json found — run enrich.py first")
-        enriched_path = candidates[0]
+        enriched_path = candidates_files[0]
         print(f"Auto-picked: {enriched_path}")
 
-    repo = json.load(open(enriched_path))
-    readme = repo.get("readme") or "(README not available)"
-    if len(readme) > MAX_README_CHARS:
-        readme = readme[:MAX_README_CHARS] + "\n\n[... README truncated for length ...]"
+    enriched = json.load(open(enriched_path))
 
-    ctx = find_social_context(repo["full_name"])
-    reddit_section = ""
-    if ctx["reddit_posts"]:
-        reddit_section = "- Reddit: " + ", ".join(
-            f"r/{r['subreddit']} ({r['score']} pts)" for r in ctx["reddit_posts"]
-        )
+    # CLI 모드에서는 poc_output.json에서 social context 로드
+    candidates = {}
+    try:
+        candidates = json.load(open("poc_output.json"))
+    except FileNotFoundError:
+        print("WARNING: poc_output.json not found, social context will be empty")
 
-    prompt = PROMPT_TEMPLATE.format(
-        full_name=repo.get("full_name") or "?",
-        description=repo.get("description") or "(no description)",
-        stars=repo.get("stars") or 0,
-        forks=repo.get("forks") or 0,
-        open_issues=repo.get("open_issues") or 0,
-        language=repo.get("language") or "?",
-        topics=", ".join(repo.get("topics") or []) or "-",
-        license=repo.get("license") or "-",
-        created_at=repo.get("created_at") or "-",
-        pushed_at=repo.get("pushed_at") or "-",
-        homepage=repo.get("homepage") or "-",
-        hn_title=ctx["hn_title"],
-        hn_score=ctx["hn_score"],
-        hn_comments=ctx["hn_comments"],
-        reddit_section=reddit_section,
-        readme=readme,
-    )
+    social_ctx = find_social_context(enriched["full_name"], candidates)
 
     print(f"Calling claude -p (sonnet) ...")
-    print(f"Prompt size: {len(prompt):,} chars")
+    article = generate_article(enriched, social_ctx)
 
-    article_body = call_claude_cli(prompt)
-    article = assemble(article_body, repo, ctx)
-
-    safe_name = repo["full_name"].replace("/", "_")
+    safe_name = enriched["full_name"].replace("/", "_")
     out_path = f"article_{safe_name}.md"
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(article)
 
-    sep = "=" * 70
-    print("\n" + sep)
-    print(f"✓ Article saved → {out_path}")
-    print(f"  Length: {len(article):,} chars")
-    print(sep)
-    print("\n--- Preview (first 2000 chars) ---\n")
-    print(article[:2000])
-    if len(article) > 2000:
-        print(f"\n[... {len(article) - 2000:,} more chars in {out_path} ...]")
+    print(f"\n✓ Saved → {out_path} ({len(article):,} chars)")
 
 
 if __name__ == "__main__":
