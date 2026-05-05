@@ -1,0 +1,1186 @@
+{
+  "run_at": "2026-05-05T00:12:25.507918+00:00",
+  "hn": [
+    {
+      "source": "hacker_news",
+      "repo": "MinishLab/semble",
+      "url": "https://github.com/MinishLab/semble",
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "score": 8,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47997629",
+      "created_at": "2026-05-03T15:02:08Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "av/facts",
+      "url": "https://github.com/av/facts",
+      "title": "Show HN: Replacing spec-driven development with just facts",
+      "score": 7,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48008906",
+      "created_at": "2026-05-04T14:00:52Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "svix/diom",
+      "url": "https://github.com/svix/diom",
+      "title": "Show HN: Diom – Backend primitives (queue, rate limit, etc.) in one Rust binary",
+      "score": 4,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47996356",
+      "created_at": "2026-05-03T12:38:21Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "capsulerun/bash",
+      "url": "https://github.com/capsulerun/bash",
+      "title": "Show HN: Capsule Bash – Sandboxed Bash for Agents",
+      "score": 3,
+      "comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48009460",
+      "created_at": "2026-05-04T14:49:16Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "gregario/the-rouge",
+      "url": "https://github.com/gregario/the-rouge",
+      "title": "Show HN: The Rouge is my attempt at an AI product factory",
+      "score": 2,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48010915",
+      "created_at": "2026-05-04T16:29:14Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "Duvet05/Constitucion-Politica-del-Peru",
+      "url": "https://github.com/Duvet05/Constitucion-Politica-del-Peru",
+      "title": "Show HN: I modeled Peru's 1993 Constitution as a Git history",
+      "score": 2,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48000382",
+      "created_at": "2026-05-03T19:20:11Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "TrainForge/TrainForgeTester",
+      "url": "https://github.com/TrainForge/TrainForgeTester",
+      "title": "Show HN: TrainForgeTester – deterministic scenario tests for AI agents",
+      "score": 2,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48000135",
+      "created_at": "2026-05-03T18:52:38Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "dr-schlange/LISA",
+      "url": "https://github.com/dr-schlange/LISA",
+      "title": "Show HN: Lisa a live dynamic wavetables synth you play and program in real-time",
+      "score": 2,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47992267",
+      "created_at": "2026-05-03T01:13:20Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "walnutgeek/woodglue",
+      "url": "https://github.com/walnutgeek/woodglue",
+      "title": "Show HN: Woodglue - Self-documenting API/Data async server",
+      "score": 1,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48012988",
+      "created_at": "2026-05-04T18:39:02Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "vgaj/proxy",
+      "url": "https://github.com/vgaj/proxy",
+      "title": "Show HN: Use an Android Phone as an HTTP Proxy",
+      "score": 1,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47991879",
+      "created_at": "2026-05-03T00:14:16Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "aattaran/deepclaude",
+      "url": "https://github.com/aattaran/deepclaude",
+      "title": "DeepClaude – Claude Code agent loop with DeepSeek V4 Pro",
+      "score": 650,
+      "comments": 273,
+      "hn_url": "https://news.ycombinator.com/item?id=48002136",
+      "created_at": "2026-05-03T22:13:20Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "pyinfra-dev/pyinfra",
+      "url": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
+      "title": "PyInfra 3.8.0",
+      "score": 212,
+      "comments": 80,
+      "hn_url": "https://news.ycombinator.com/item?id=48008083",
+      "created_at": "2026-05-04T12:53:46Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "bring-shrubbery/ml-sharp-web",
+      "url": "https://github.com/bring-shrubbery/ml-sharp-web",
+      "title": "Show HN: Apple's SHARP running in the browser via ONNX runtime web",
+      "score": 181,
+      "comments": 43,
+      "hn_url": "https://news.ycombinator.com/item?id=47995037",
+      "created_at": "2026-05-03T09:14:56Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "bschoepke/ableton-live-mcp",
+      "url": "https://github.com/bschoepke/ableton-live-mcp",
+      "title": "Show HN: Ableton Live MCP",
+      "score": 112,
+      "comments": 76,
+      "hn_url": "https://news.ycombinator.com/item?id=47999656",
+      "created_at": "2026-05-03T18:05:28Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "Matheus-git/systemd-manager-tui",
+      "url": "https://github.com/Matheus-git/systemd-manager-tui",
+      "title": "Systemd-manager-TUI: A TUI application for managing systemd services",
+      "score": 82,
+      "comments": 26,
+      "hn_url": "https://news.ycombinator.com/item?id=47995649",
+      "created_at": "2026-05-03T10:55:30Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "vivekg13186/Daisy-DAG",
+      "url": "https://github.com/vivekg13186/Daisy-DAG",
+      "title": "DAG Workflow Engine",
+      "score": 58,
+      "comments": 44,
+      "hn_url": "https://news.ycombinator.com/item?id=48007880",
+      "created_at": "2026-05-04T12:32:00Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "lalitshankarch/rvcore",
+      "url": "https://github.com/lalitshankarch/rvcore",
+      "title": "Show HN: I built a RISC-V emulator that runs DOOM",
+      "score": 46,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=47996055",
+      "created_at": "2026-05-03T11:57:12Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "notepad-plus-plus/notepad-plus-plus",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/issues/17982",
+      "title": "Unauthorized macOS port claiming Don Ho as an author?",
+      "score": 30,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48003346",
+      "created_at": "2026-05-04T00:52:47Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "skyhook-io/radar",
+      "url": "https://github.com/skyhook-io/radar",
+      "title": "Radar: Local-first Kubernetes UI in a single Go binary",
+      "score": 15,
+      "comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=47994367",
+      "created_at": "2026-05-03T07:31:19Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "tgflynn/Julius",
+      "url": "https://github.com/tgflynn/Julius",
+      "title": "Show HN: Julius, a New Lisp Implementation",
+      "score": 13,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=47994161",
+      "created_at": "2026-05-03T06:58:37Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "p32929/let",
+      "url": "https://github.com/p32929/let",
+      "title": "Show HN: Let – Offline-first life events tracker (React Native, SQLite)",
+      "score": 10,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48008805",
+      "created_at": "2026-05-04T13:53:18Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "elliott-diy/DontTrustTitles",
+      "url": "https://github.com/elliott-diy/DontTrustTitles",
+      "title": "Show HN: Triggering anti-cheats with just a browser tab title",
+      "score": 8,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48002134",
+      "created_at": "2026-05-03T22:13:10Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "CelestoAI/SmolVM",
+      "url": "https://github.com/CelestoAI/SmolVM/",
+      "title": "Show HN: I'm running parallel Pi agents on a local sandbox",
+      "score": 8,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=47992937",
+      "created_at": "2026-05-03T03:07:08Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "snyk/agent-scan",
+      "url": "https://github.com/snyk/agent-scan",
+      "title": "Show HN: Security Scanner for Agent Skills and MCP",
+      "score": 7,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47999709",
+      "created_at": "2026-05-03T18:10:38Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "scastiel/kado",
+      "url": "https://github.com/scastiel/kado",
+      "title": "Show HN: Kadō – habit tracker app for iOS, open source and privacy-friendly",
+      "score": 7,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47998670",
+      "created_at": "2026-05-03T16:35:56Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "boxlite-ai/boxlite",
+      "url": "https://github.com/boxlite-ai/boxlite",
+      "title": "Show HN: BoxLite – the all-terrain micro-VM",
+      "score": 6,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=47994768",
+      "created_at": "2026-05-03T08:28:49Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "ItsArnavSh/Tyche",
+      "url": "https://github.com/ItsArnavSh/Tyche",
+      "title": "Show HN: Tyche: An experimental distributed trading pipeline in Go Java",
+      "score": 5,
+      "comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=48000638",
+      "created_at": "2026-05-03T19:43:52Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "h4ckf0r0day/obscura",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "title": "H4ckf0r0day/obscura: The headless browser for AI agents and web scraping",
+      "score": 5,
+      "comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48002523",
+      "created_at": "2026-05-03T23:03:05Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "gangtao/AgentPitch",
+      "url": "https://github.com/gangtao/AgentPitch/",
+      "title": "Show HN: A Soccer Game Simulator Played by AI Agent",
+      "score": 5,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48009970",
+      "created_at": "2026-05-04T15:32:02Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "jordepic/Icestream",
+      "url": "https://github.com/jordepic/Icestream",
+      "title": "Icestream – enabling efficient streaming writes in Apache Iceberg",
+      "score": 5,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48001336",
+      "created_at": "2026-05-03T20:50:09Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "fsilavong/agent-eval",
+      "url": "https://github.com/fsilavong/agent-eval",
+      "title": "Show HN: Agent-evals – Claude skill to build your own evals",
+      "score": 5,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48013746",
+      "created_at": "2026-05-04T19:27:22Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "ChiaraCannolee/thermal-pocket-printer-basic",
+      "url": "https://github.com/ChiaraCannolee/thermal-pocket-printer-basic",
+      "title": "I reverse-engineered a thermal pocket printer to print without the app",
+      "score": 5,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48010907",
+      "created_at": "2026-05-04T16:28:42Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "scosman/cursed_browser",
+      "url": "https://github.com/scosman/cursed_browser",
+      "title": "Cursed Browser: web rendering engine using visual-LLMs",
+      "score": 5,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48010670",
+      "created_at": "2026-05-04T16:16:03Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "alias8818/enoch-agentic-research-system",
+      "url": "https://github.com/alias8818/enoch-agentic-research-system",
+      "title": "Show HN: Enoch – Control Plane for Autonomous AI Research",
+      "score": 5,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=47994468",
+      "created_at": "2026-05-03T07:45:21Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "reubeno/brush",
+      "url": "https://github.com/reubeno/brush/releases/tag/brush-shell-v0.4.0",
+      "title": "Brush a Bash/POSIX-compatible shell written in the Rust",
+      "score": 5,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47999890",
+      "created_at": "2026-05-03T18:28:59Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "rochus-keller/OberonSystem3Native",
+      "url": "https://github.com/rochus-keller/OberonSystem3Native/releases/tag/2026-04-28",
+      "title": "Show HN: Oberon System 3 on Raspi Zero 2 (with ready SD card)",
+      "score": 5,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47997982",
+      "created_at": "2026-05-03T15:35:51Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "BigBodyCobain/Shadowbroker",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker/tree/main",
+      "title": "Show HN: My OSINT dashboard with 60+ feeds now has a pseudonymous P2P comms",
+      "score": 5,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47997255",
+      "created_at": "2026-05-03T14:24:31Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "darula-hpp/uigen",
+      "url": "https://github.com/darula-hpp/uigen",
+      "title": "Show HN: UIGen – Runtime front end for any OpenAPI spec with AI skills",
+      "score": 5,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47993816",
+      "created_at": "2026-05-03T05:57:15Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "jonathanchu/grove",
+      "url": "https://github.com/jonathanchu/grove",
+      "title": "Grove.el: an Obsidian-like note-taking mode for Emacs",
+      "score": 4,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48013448",
+      "created_at": "2026-05-04T19:08:17Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "isene/hyperlist",
+      "url": "https://github.com/isene/hyperlist",
+      "title": "HyperList: A powerful TUI for creating, editing, and managing HyperLists",
+      "score": 4,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48004170",
+      "created_at": "2026-05-04T03:04:56Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "ImpulseDoes/wiki",
+      "url": "https://github.com/ImpulseDoes/wiki",
+      "title": "Wikipedia in the Terminal",
+      "score": 4,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=47995327",
+      "created_at": "2026-05-03T09:59:41Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "lucarp/terminalsync",
+      "url": "https://github.com/lucarp/terminalsync",
+      "title": "Show HN: Mirror a terminal to your phone – E2E encrypted, peer-to-peer,no daemon",
+      "score": 4,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48005768",
+      "created_at": "2026-05-04T07:37:42Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "MrMilenko/Theseus",
+      "url": "https://github.com/MrMilenko/Theseus",
+      "title": "Theseus: Reverse-engineered reconstruction of the original Xbox 5960 dashboard",
+      "score": 4,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48001759",
+      "created_at": "2026-05-03T21:34:31Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "BarishNamazov/interpretable-autoresearch",
+      "url": "https://github.com/BarishNamazov/interpretable-autoresearch",
+      "title": "Show HN: Interpretable AutoResearch – Legible Agent Workflows",
+      "score": 4,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48000947",
+      "created_at": "2026-05-03T20:15:30Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "ddanila/vc",
+      "url": "https://github.com/ddanila/vc",
+      "title": "Original Volkov Commander Sources",
+      "score": 4,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47999737",
+      "created_at": "2026-05-03T18:13:23Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "Light-Heart-Labs/MMBT-Messy-Model-Bench-Tests",
+      "url": "https://github.com/Light-Heart-Labs/MMBT-Messy-Model-Bench-Tests",
+      "title": "Messy Model Bench Tests; Qwen3.6-27B vs. Coder-Next",
+      "score": 4,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47998718",
+      "created_at": "2026-05-03T16:40:45Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "Zellic/publications",
+      "url": "https://github.com/Zellic/publications/blob/master/uutils%20coreutils%20-%20Zellic%20Audit%20Report.pdf",
+      "title": "Rust-Coreutils Security Audit Report by Zellic [pdf]",
+      "score": 4,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47997923",
+      "created_at": "2026-05-03T15:29:25Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "QLNI/NodeMind",
+      "url": "https://github.com/QLNI/NodeMind",
+      "title": "NodeMind – binary document index, 48× smaller than float32 RAG, no GPU required",
+      "score": 4,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47993567",
+      "created_at": "2026-05-03T05:14:47Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "fazhq/faz",
+      "url": "https://github.com/fazhq/faz",
+      "title": "Show HN: Safety layer between AI agents and databases",
+      "score": 3,
+      "comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48008603",
+      "created_at": "2026-05-04T13:37:09Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "Foxboron/ssh-tpm-agent",
+      "url": "https://github.com/Foxboron/ssh-tpm-agent/releases/tag/v0.9.0",
+      "title": "Show HN: SSH-TPM-agent · Release v0.9.0",
+      "score": 3,
+      "comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48013730",
+      "created_at": "2026-05-04T19:26:29Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "fpytloun/mnemory",
+      "url": "https://github.com/fpytloun/mnemory",
+      "title": "Mnemory – Persistent memory for AI agents",
+      "score": 3,
+      "comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=47995527",
+      "created_at": "2026-05-03T10:32:36Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "NoahCzelusta/mcpages",
+      "url": "https://github.com/NoahCzelusta/mcpages",
+      "title": "MCPages",
+      "score": 3,
+      "comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=47995087",
+      "created_at": "2026-05-03T09:21:52Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "amitport/EDEN-Distributed-Mean-Estimation",
+      "url": "https://github.com/amitport/EDEN-Distributed-Mean-Estimation",
+      "title": "Show HN: A 4-year-old \"TurboQuant\" implementation",
+      "score": 3,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=47998261",
+      "created_at": "2026-05-03T15:58:49Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "raiyanyahya/kit",
+      "url": "https://github.com/raiyanyahya/kit",
+      "title": "Show HN: Editor, Browser, Terminal, Mail, Agents. AI Sharing Context",
+      "score": 3,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=47994639",
+      "created_at": "2026-05-03T08:11:11Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "misha-met/Delta",
+      "url": "https://github.com/misha-met/Delta",
+      "title": "Delta: Browser-based F1 pit wall with 3D replay and telemetry compare",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48015704",
+      "created_at": "2026-05-04T22:17:33Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "iBz-04/quaynor",
+      "url": "https://github.com/iBz-04/quaynor",
+      "title": "Easiest way to create agents with local LLMs",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48008354",
+      "created_at": "2026-05-04T13:16:24Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "raiyanyahya/how-to-train-your-gpt",
+      "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
+      "title": "Train a LLM from Scratch",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48007926",
+      "created_at": "2026-05-04T12:36:45Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "en/copilot",
+      "url": "https://docs.github.com/en/copilot/reference/copilot-billing/model-multipliers-for-annual-plans",
+      "title": "Model multipliers for annual plans staying on request-based billing",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48007413",
+      "created_at": "2026-05-04T11:38:22Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "joeduffy/foundations-of-llms",
+      "url": "https://github.com/joeduffy/foundations-of-llms",
+      "title": "The Foundations of LLMs, 1943-2026: A Curated Collection of Seminal Papers",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48005714",
+      "created_at": "2026-05-04T07:28:11Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "parrik/know-thyself",
+      "url": "https://github.com/parrik/know-thyself",
+      "title": "Know thyself: LLM schema for personal memory",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48003019",
+      "created_at": "2026-05-04T00:09:33Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "highpost/tailscale-macos-container",
+      "url": "https://github.com/highpost/tailscale-macos-container",
+      "title": "Show HN: Using Tailscale with Apple's containerization stack",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48002958",
+      "created_at": "2026-05-04T00:01:25Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "mimiclone/argon2-swift",
+      "url": "https://github.com/mimiclone/argon2-swift",
+      "title": "Show HN: Memory Safe Argon2 Implementation in Pure Swift 6",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48001595",
+      "created_at": "2026-05-03T21:17:43Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "sderosiaux/launchdeck",
+      "url": "https://github.com/sderosiaux/launchdeck",
+      "title": "Unified macOS service console for launchd and Homebrew",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=47997958",
+      "created_at": "2026-05-03T15:33:35Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "muc111/OTRv4Plus",
+      "url": "https://github.com/muc111/OTRv4Plus",
+      "title": "OTRv4 Post-quantum IRC that runs on a phone over I2P/Tor/TLS",
+      "score": 3,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=47997919",
+      "created_at": "2026-05-03T15:29:10Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "misaelzapata/node-vmm",
+      "url": "https://github.com/misaelzapata/node-vmm",
+      "title": "Show HN: Node-Vmm – Linux MicroVMs in Pure Node.js for Mac/Windows/Linux in ~1s",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48015876",
+      "created_at": "2026-05-04T22:37:06Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "boldsoftware/shelley",
+      "url": "https://github.com/boldsoftware/shelley",
+      "title": "Shelley: Mobile-friendly, web-based, multi-modal, single-user coding agent",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48015681",
+      "created_at": "2026-05-04T22:13:32Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "yannickboog/lena",
+      "url": "https://github.com/yannickboog/lena",
+      "title": "Lena – macOS menu bar app for storing and copying CLI commands",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48014272",
+      "created_at": "2026-05-04T20:08:12Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "ValkDB/postgresparser",
+      "url": "https://github.com/ValkDB/postgresparser",
+      "title": "Postgresparser: ANTLR-based PostgreSQL query parser for Go",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48010240",
+      "created_at": "2026-05-04T15:49:47Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "ahmad212o/pytest-cloudreport",
+      "url": "https://github.com/ahmad212o/pytest-cloudreport",
+      "title": "Show HN: Pytest plugin that classifies why your CI failed",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48009045",
+      "created_at": "2026-05-04T14:12:49Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "eu-digital-identity-wallet/av-doc-technical-specification",
+      "url": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/pull/23",
+      "title": "PR: Restoring Privacy and Freedom",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48008445",
+      "created_at": "2026-05-04T13:24:08Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "nicdercole/Tor-Lighttpd-Onion-2026",
+      "url": "https://github.com/nicdercole/Tor-Lighttpd-Onion-2026",
+      "title": "Tor Onion Service with Docker Compose and Lighttpd",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48007943",
+      "created_at": "2026-05-04T12:39:19Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "xkqg/MatPlotLibNet",
+      "url": "https://github.com/xkqg/MatPlotLibNet",
+      "title": "MatPlotLibNet – server-rendered charting for .NET, built for a trading system",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48007488",
+      "created_at": "2026-05-04T11:46:55Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "raylanlin/smarttune-cli",
+      "url": "https://github.com/raylanlin/smarttune-cli",
+      "title": "SmartTune CLI – ArduPilot log analysis(MIT open source)",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48006934",
+      "created_at": "2026-05-04T10:42:22Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "mfranzon/circuitiny",
+      "url": "https://github.com/mfranzon/circuitiny",
+      "title": "Circuitiny: AI-assisted circuit design tool for hobbyists",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48006818",
+      "created_at": "2026-05-04T10:28:28Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "ValkDB/valk-guard",
+      "url": "https://github.com/ValkDB/valk-guard",
+      "title": "Show HN: Valk Guard– Catches dangerous SQL hidden inside your ORM,no DB required",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48006682",
+      "created_at": "2026-05-04T10:11:22Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "boringcollege/postgres-by-example",
+      "url": "https://github.com/boringcollege/postgres-by-example",
+      "title": "Postgres by Example",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48005741",
+      "created_at": "2026-05-04T07:33:06Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "ledhieu/imoss",
+      "url": "https://github.com/ledhieu/imoss",
+      "title": "Show HN: Interactive Marimo Moss Ball",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48003881",
+      "created_at": "2026-05-04T02:14:03Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "markksantos/VidMark",
+      "url": "https://github.com/markksantos/VidMark",
+      "title": "Show HN: VidMark – Frame.io-style timestamped comments for Google Drive",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48001417",
+      "created_at": "2026-05-03T20:59:08Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "aidangarske/wolfCOSE",
+      "url": "https://github.com/aidangarske/wolfCOSE",
+      "title": "WolfCOSE: Zero alloc, PQC, MISRA-C, FIPS 140-3 built with wolfCrypt",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48001060",
+      "created_at": "2026-05-03T20:25:32Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "profullstack/c0mpute",
+      "url": "https://github.com/profullstack/c0mpute",
+      "title": "Show HN: Decentralized compute network. CLI-first",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48000399",
+      "created_at": "2026-05-03T19:21:11Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "title": "Open source desktop app for studying online courses",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47999712",
+      "created_at": "2026-05-03T18:10:50Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "stellarshenson/jupyterlab_claude_code_extension",
+      "url": "https://github.com/stellarshenson/jupyterlab_claude_code_extension",
+      "title": "New Claude-Code Plugin for Jupyterlab",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47999354",
+      "created_at": "2026-05-03T17:35:17Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "kiliczsh/llmconfig",
+      "url": "https://github.com/kiliczsh/llmconfig",
+      "title": "Show HN: Llmconfig – configfile and CLI for local LLM",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47997944",
+      "created_at": "2026-05-03T15:31:44Z"
+    },
+    {
+      "source": "hacker_news",
+      "repo": "maeddesg/vulkanforge",
+      "url": "https://github.com/maeddesg/vulkanforge",
+      "title": "VulkanForge – 14 MB Vulkan LLM engine that runs native FP8 models on AMD (Rust)",
+      "score": 3,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=47997644",
+      "created_at": "2026-05-03T15:03:30Z"
+    }
+  ],
+  "reddit": [
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/22673",
+      "title": "Llama.cpp MTP support now in beta!",
+      "score": 468,
+      "comments": 209,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t3guzw/llamacpp_mtp_support_now_in_beta/",
+      "created_utc": 1777899254.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "shisa-ai/FastDMS",
+      "url": "github.com/shisa-ai/FastDMS",
+      "title": "FastDMS: 6.4X KV-cache compression running faster than vLLM BF16/FP8",
+      "score": 48,
+      "comments": 7,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t3vlrx/fastdms_64x_kvcache_compression_running_faster/",
+      "created_utc": 1777930704.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "mudler/apex-quant",
+      "url": "github.com/mudler/apex-quant",
+      "title": "APEX MoE quants update: 25+ new models since the Qwen 3.5 post + new I-Nano tier",
+      "score": 74,
+      "comments": 21,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t3n6jo/apex_moe_quants_update_25_new_models_since_the/",
+      "created_utc": 1777913007.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "tokenaii/horus-1.0",
+      "url": "github.com/tokenaii/horus-1.0",
+      "title": "The first AI Model in Egypt 🇪🇬",
+      "score": 31,
+      "comments": 5,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t3nh7d/the_first_ai_model_in_egypt/",
+      "created_utc": 1777913616.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "zakerytclarke/llmsearchindex",
+      "url": "https://github.com/zakerytclarke/llmsearchindex",
+      "title": "LLMSearchIndex- an Open Source Local Web Search Library with over 200 million indexed Web Pages for RAG applications",
+      "score": 31,
+      "comments": 18,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t3hokh/llmsearchindex_an_open_source_local_web_search/",
+      "created_utc": 1777901170.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "hamletlg/deep-research-pipeline",
+      "url": "https://github.com/hamletlg/deep-research-pipeline",
+      "title": "Deep research + report \"a la McKinsey\" with Hermes Agent and qwen3.6-35b-a3b Q6_K.",
+      "score": 42,
+      "comments": 1,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t3eixr/deep_research_report_a_la_mckinsey_with_hermes/",
+      "created_utc": 1777892941.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "robert896r1/qwen-realworld-accuracy-evals",
+      "url": "github.com/robert896r1/qwen-realworld-accuracy-evals",
+      "title": "Benching local Qwen as a Codex validator, co-agent, and challenger",
+      "score": 3,
+      "comments": 8,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t3w4xc/benching_local_qwen_as_a_codex_validator_coagent/",
+      "created_utc": 1777931936.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "Liquid4All/cookbook",
+      "url": "github.com/Liquid4All/cookbook",
+      "title": "Frontier models can't run on satellites. Here's an end-to-end wildfire detection pipeline using a 450M on-board Vision-Language Model (Sentinel-2 + LFM2.5-VL)",
+      "score": 18,
+      "comments": 7,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t36myv/frontier_models_cant_run_on_satellites_heres_an/",
+      "created_utc": 1777866502.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "ggml-org/llama.cpp",
+      "url": "github.com/ggml-org/llama.cpp",
+      "title": "Mistral Medium 3.5 128B and Qwen 3.5 122B A10B on 4x RTX 3080 20GB",
+      "score": 16,
+      "comments": 10,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t372ml/mistral_medium_35_128b_and_qwen_35_122b_a10b_on/",
+      "created_utc": 1777867796.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "Light-Heart-Labs/MMBT-Messy-Model-Bench-Tests",
+      "url": "github.com/Light-Heart-Labs/MMBT-Messy-Model-Bench-Tests",
+      "title": "Qwen3.6-27B vs Coder-Next",
+      "score": 1036,
+      "comments": 150,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t2ab5y/qwen3627b_vs_codernext/",
+      "created_utc": 1777779043.0
+    },
+    {
+      "source": "reddit/r/LocalLLaMA",
+      "repo": "moedesux/voice-tic-tac-toe",
+      "url": "github.com/moedesux/voice-tic-tac-toe",
+      "title": "I made a voice controlled Tic-Tac-Toe game as a learning project",
+      "score": 3,
+      "comments": 2,
+      "subreddit": "LocalLLaMA",
+      "permalink": "https://reddit.com/r/LocalLLaMA/comments/1t3c589/i_made_a_voice_controlled_tictactoe_game_as_a/",
+      "created_utc": 1777885134.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "shootthesound/torch-nvenc-compress",
+      "url": "https://github.com/shootthesound/torch-nvenc-compress",
+      "title": "torch-nvenc-compress: GPU NVENC silicon as a PCIe bandwidth multiplier — PCA + pure-ctypes Video Codec SDK wrapper. Parallel-path overlap measured at 67% of theoretical max on a real GEMM + encode workload. [P]",
+      "score": 19,
+      "comments": 0,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1t2zy4h/torchnvenccompress_gpu_nvenc_silicon_as_a_pcie/",
+      "created_utc": 1777848197.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "gvcallen/parax",
+      "url": "github.com/gvcallen/parax",
+      "title": "Parax v0.5: Parametric Modeling in JAX [P]",
+      "score": 1,
+      "comments": 2,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1t3jmdc/parax_v05_parametric_modeling_in_jax_p/",
+      "created_utc": 1777905511.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "paulo101977/notebooks-rl",
+      "url": "github.com/paulo101977/notebooks-rl",
+      "title": "I Trained an AI to Beat Final Fight… Here’s What Happened [p]",
+      "score": 0,
+      "comments": 0,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1t2vfz7/i_trained_an_ai_to_beat_final_fight_heres_what/",
+      "created_utc": 1777837537.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "Kiamehr5/KMRI",
+      "url": "github.com/Kiamehr5/KMRI",
+      "title": "Built a efficient and fast MRI compression program called KMRI [P]",
+      "score": 1,
+      "comments": 2,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1t2hd9b/built_a_efficient_and_fast_mri_compression/",
+      "created_utc": 1777802607.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "genji970/Scaling-Test-Time-Compute-for-Agentic-Coding-",
+      "url": "github.com/genji970/Scaling-Test-Time-Compute-for-Agentic-Coding-",
+      "title": "I implemented meta paper [P]",
+      "score": 1,
+      "comments": 5,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1t1rni9/i_implemented_meta_paper_p/",
+      "created_utc": 1777732673.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "dpaul0501/OpenVidya",
+      "url": "github.com/dpaul0501/OpenVidya",
+      "title": "Looking for feedback on OpenVidya: an open-source AI classroom layer for NCERT/CBSE [R]",
+      "score": 0,
+      "comments": 1,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1t1dqwo/looking_for_feedback_on_openvidya_an_opensource/",
+      "created_utc": 1777690055.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "aoji/vje",
+      "url": "github.com/aoji/vje",
+      "title": "[R] Joint Embedding Variational Bayes (TMLR ’26)",
+      "score": 89,
+      "comments": 7,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1szyjpk/r_joint_embedding_variational_bayes_tmlr_26/",
+      "created_utc": 1777561211.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "cloudrift-ai/deplodock",
+      "url": "github.com/cloudrift-ai/deplodock",
+      "title": "A Hackable ML Compiler Stack in 5,000 Lines of Python [P]",
+      "score": 8,
+      "comments": 0,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1t07zff/a_hackable_ml_compiler_stack_in_5000_lines_of/",
+      "created_utc": 1777580816.0
+    },
+    {
+      "source": "reddit/r/MachineLearning",
+      "repo": "mandarwagh9/overwatch.",
+      "url": "github.com/mandarwagh9/overwatch.",
+      "title": "Self-calibrating cross-camera homography for real-time ghost prediction in multi-camera person tracking[P]",
+      "score": 0,
+      "comments": 0,
+      "subreddit": "MachineLearning",
+      "permalink": "https://reddit.com/r/MachineLearning/comments/1t0k4i5/selfcalibrating_crosscamera_homography_for/",
+      "created_utc": 1777612996.0
+    },
+    {
+      "source": "reddit/r/programming",
+      "repo": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode/pull/310226",
+      "title": "Enabling ai co author by default by cwebster-99 · Pull Request #310226 · microsoft/vscode",
+      "score": 682,
+      "comments": 214,
+      "subreddit": "programming",
+      "permalink": "https://reddit.com/r/programming/comments/1t2f3h5/enabling_ai_co_author_by_default_by_cwebster99/",
+      "created_utc": 1777794609.0
+    },
+    {
+      "source": "reddit/r/programming",
+      "repo": "serenedb/serenedb",
+      "url": "github.com/serenedb/serenedb",
+      "title": "Adaptive compression for inverted index",
+      "score": 14,
+      "comments": 0,
+      "subreddit": "programming",
+      "permalink": "https://reddit.com/r/programming/comments/1t0qke8/adaptive_compression_for_inverted_index/",
+      "created_utc": 1777634468.0
+    },
+    {
+      "source": "reddit/r/selfhosted",
+      "repo": "paperless-ngx/paperless-ngx",
+      "url": "github.com/paperless-ngx/paperless-ngx",
+      "title": "n8n + Paperless-ngx + Paperless-GPT for adding RAG to your documents!",
+      "score": 181,
+      "comments": 26,
+      "subreddit": "selfhosted",
+      "permalink": "https://reddit.com/r/selfhosted/comments/1t3ba9r/n8n_paperlessngx_paperlessgpt_for_adding_rag_to/",
+      "created_utc": 1777881995.0
+    },
+    {
+      "source": "reddit/r/selfhosted",
+      "repo": "nunoOliveiraqwe/torii",
+      "url": "github.com/nunoOliveiraqwe/torii",
+      "title": "torii, a reverse proxy with observability in mind",
+      "score": 23,
+      "comments": 15,
+      "subreddit": "selfhosted",
+      "permalink": "https://reddit.com/r/selfhosted/comments/1t3m4ik/torii_a_reverse_proxy_with_observability_in_mind/",
+      "created_utc": 1777910801.0
+    },
+    {
+      "source": "reddit/r/selfhosted",
+      "repo": "NeptuneHub/AudioMuse-AI",
+      "url": "github.com/NeptuneHub/AudioMuse-AI",
+      "title": "AudioMuse-AI V1.1.0: First year and Lyrics Sematic search celebrations",
+      "score": 17,
+      "comments": 7,
+      "subreddit": "selfhosted",
+      "permalink": "https://reddit.com/r/selfhosted/comments/1t3m3a4/audiomuseai_v110_first_year_and_lyrics_sematic/",
+      "created_utc": 1777910735.0
+    },
+    {
+      "source": "reddit/r/selfhosted",
+      "repo": "murtaza-nasir/speakr",
+      "url": "github.com/murtaza-nasir/speakr",
+      "title": "Speakr v0.8.19 - Local audio/video transcription app update",
+      "score": 68,
+      "comments": 10,
+      "subreddit": "selfhosted",
+      "permalink": "https://reddit.com/r/selfhosted/comments/1t39ziv/speakr_v0819_local_audiovideo_transcription_app/",
+      "created_utc": 1777877359.0
+    },
+    {
+      "source": "reddit/r/selfhosted",
+      "repo": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden/releases/tag/1.36.0",
+      "title": "Vaultwarden 1.36.0 patches vulnerabilities",
+      "score": 349,
+      "comments": 14,
+      "subreddit": "selfhosted",
+      "permalink": "https://reddit.com/r/selfhosted/comments/1t2qd26/vaultwarden_1360_patches_vulnerabilities/",
+      "created_utc": 1777826292.0
+    },
+    {
+      "source": "reddit/r/selfhosted",
+      "repo": "Panonim/dynacat",
+      "url": "github.com/Panonim/dynacat",
+      "title": "Dynacat is more polished than ever!",
+      "score": 11,
+      "comments": 12,
+      "subreddit": "selfhosted",
+      "permalink": "https://reddit.com/r/selfhosted/comments/1t308ld/dynacat_is_more_polished_than_ever/",
+      "created_utc": 1777848942.0
+    },
+    {
+      "source": "reddit/r/selfhosted",
+      "repo": "alexbelgium/hassio-addons",
+      "url": "github.com/alexbelgium/hassio-addons",
+      "title": "FileBrowser mounting a local device?",
+      "score": 1,
+      "comments": 6,
+      "subreddit": "selfhosted",
+      "permalink": "https://reddit.com/r/selfhosted/comments/1t3bux9/filebrowser_mounting_a_local_device/",
+      "created_utc": 1777884115.0
+    },
+    {
+      "source": "reddit/r/selfhosted",
+      "repo": "ZoeyVid/NPMplus",
+      "url": "github.com/ZoeyVid/NPMplus",
+      "title": "New to medium skill struggling with NPMplus",
+      "score": 2,
+      "comments": 7,
+      "subreddit": "selfhosted",
+      "permalink": "https://reddit.com/r/selfhosted/comments/1t3059l/new_to_medium_skill_struggling_with_npmplus/",
+      "created_utc": 1777848698.0
+    }
+  ],
+  "multi_source": [
+    {
+      "repo": "light-heart-labs/mmbt-messy-model-bench-tests",
+      "sources": [
+        "hacker_news",
+        "reddit/r/LocalLLaMA"
+      ]
+    }
+  ]
+}
