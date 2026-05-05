@@ -112,73 +112,75 @@ def fetch_reddit(subs=("LocalLLaMA", "MachineLearning", "programming", "selfhost
     return items
 
 
-# ---------- Main ----------
-def main():
-    sep = "=" * 70
-    print(sep)
-    print("github-radar POC — Tier 1 source collection")
-    print(f"Run at: {datetime.now(timezone.utc).isoformat()}")
-    print(sep)
+# ---------- Data builder ----------
+def collect_all():
+    """Collect candidates from all Tier 1 sources. Returns dict.
 
-    # 1. Hacker News
-    print("\n[1/2] Hacker News (last 48h, github.com mentions)")
+    Returns:
+        {
+            "run_at": ISO timestamp,
+            "hn": [...items...],
+            "reddit": [...items...],
+            "multi_source": [...repos appearing in 2+ sources...]
+        }
+    """
+    hn = []
+    reddit = []
     try:
         hn = fetch_hn(hours_back=48)
-        print(f"  Collected: {len(hn)} repo posts")
-        hn_sorted = sorted(hn, key=lambda x: x["score"], reverse=True)
-        for r in hn_sorted[:5]:
-            print(f"    - {r['repo']:<40} ({r['score']:>4} pts, {r['comments']:>3} comments)")
-            print(f"      {r['title'][:110]}")
     except Exception as e:
-        print(f"  FAILED: {type(e).__name__}: {e}")
-        hn = []
-
-    # 2. Reddit
-    print("\n[2/2] Reddit (r/LocalLLaMA, r/MachineLearning, r/programming, r/selfhosted)")
+        print(f"  HN fetch failed: {type(e).__name__}: {e}")
     try:
         reddit = fetch_reddit()
-        print(f"  Collected: {len(reddit)} repo posts across subs")
-        reddit_sorted = sorted(reddit, key=lambda x: x["score"], reverse=True)
-        for r in reddit_sorted[:5]:
-            print(f"    - {r['repo']:<40} {r['source']:<25} ({r['score']:>4} pts)")
-            print(f"      {r['title'][:110]}")
     except Exception as e:
-        print(f"  FAILED: {type(e).__name__}: {e}")
-        reddit = []
+        print(f"  Reddit fetch failed: {type(e).__name__}: {e}")
 
-    # Cross-source signal
     all_items = hn + reddit
     sources_per_repo = {}
     for it in all_items:
         sources_per_repo.setdefault(it["repo"].lower(), set()).add(it["source"])
-    multi = [(repo, srcs) for repo, srcs in sources_per_repo.items() if len(srcs) >= 2]
-    multi.sort(key=lambda x: -len(x[1]))
+    multi = [
+        {"repo": repo, "sources": sorted(srcs)}
+        for repo, srcs in sources_per_repo.items()
+        if len(srcs) >= 2
+    ]
+    multi.sort(key=lambda x: -len(x["sources"]))
 
-    print("\n" + sep)
-    print(f"Summary: {len(all_items)} total candidates across 2 sources")
-    print(f"Unique repos: {len(sources_per_repo)}")
-    print(f"Multi-source repos (in 2+ sources): {len(multi)}")
-    if multi:
-        print("\n  ★ Strongest signals (cross-source):")
-        for repo, srcs in multi[:10]:
-            print(f"     {repo:<45} <- {sorted(srcs)}")
+    return {
+        "run_at": datetime.now(timezone.utc).isoformat(),
+        "hn": hn,
+        "reddit": reddit,
+        "multi_source": multi,
+    }
 
-    out_path = "poc_output.json"
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(
-            {
-                "run_at": datetime.now(timezone.utc).isoformat(),
-                "hn": hn,
-                "reddit": reddit,
-                "multi_source": [
-                    {"repo": r, "sources": sorted(s)} for r, s in multi
-                ],
-            },
-            f,
-            ensure_ascii=False,
-            indent=2,
-        )
-    print(f"\nRaw data → {out_path}")
+
+# ---------- CLI ----------
+def main():
+    sep = "=" * 70
+    print(sep)
+    print("github-radar collector — Tier 1")
+    print(sep)
+
+    data = collect_all()
+    hn = data["hn"]
+    reddit = data["reddit"]
+    multi = data["multi_source"]
+
+    print(f"\n[1/2] Hacker News: {len(hn)} repos")
+    for r in sorted(hn, key=lambda x: -x["score"])[:5]:
+        print(f"  - {r['repo']:<40} ({r['score']:>4} pts) {r['title'][:60]}")
+
+    print(f"\n[2/2] Reddit: {len(reddit)} repos")
+    for r in sorted(reddit, key=lambda x: -x["score"])[:5]:
+        print(f"  - {r['repo']:<40} ({r['score']:>4} pts) {r['title'][:60]}")
+
+    print(f"\nUnique repos: {len({**{i['repo'].lower(): 1 for i in hn}, **{i['repo'].lower(): 1 for i in reddit}})}")
+    print(f"Multi-source: {len(multi)}")
+    if len(sys.argv) > 1 and sys.argv[1] == "--save":
+        out = "poc_output.json"
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"Saved → {out}")
 
 
 if __name__ == "__main__":
