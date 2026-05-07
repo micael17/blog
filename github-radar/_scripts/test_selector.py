@@ -102,6 +102,26 @@ class TestSelectRepos(unittest.TestCase):
     def test_empty_candidates(self):
         self.assertEqual(select_repos({"hn": [], "reddit": []}, {}), [])
 
+    def test_case_insensitive_repo_grouping(self):
+        """Same repo with different casing should be deduped/grouped together."""
+        candidates = {"hn": [_hn("OpenBMB/MiniCPM", score=200, title="ai")],
+                      "reddit": [_rd("openbmb/minicpm", score=100, title="ai")]}
+        result = select_repos(candidates, {})
+        # Should appear only once (grouped) and in lowercase
+        self.assertEqual(result, ["openbmb/minicpm"])
+
+    def test_case_insensitive_dedup(self):
+        """Recently covered repo (lowercase in db) blocks even if input has different casing."""
+        recent = (date.today() - timedelta(days=10)).isoformat()
+        covered = {"openbmb/minicpm": recent}
+        candidates = {"hn": [_hn("OpenBMB/MiniCPM", score=500, title="ai")], "reddit": []}
+        self.assertEqual(select_repos(candidates, covered), [])
+
+    def test_force_returns_lowercase(self):
+        """Forced repo is returned in lowercase for consistency."""
+        result = select_repos({"hn": [], "reddit": []}, {}, forced="OpenBMB/MiniCPM")
+        self.assertEqual(result, ["openbmb/minicpm"])
+
 
 if __name__ == "__main__":
     unittest.main()

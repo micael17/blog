@@ -58,11 +58,11 @@ def select_repos(candidates, covered_db, threshold=100, max_n=5, today=None,
         forced: if set, bypass all filters and return [forced]
     """
     if forced:
-        return [forced]
+        return [forced.lower()]
 
     by_repo = {}
     for item in list(candidates.get("hn", [])) + list(candidates.get("reddit", [])):
-        by_repo.setdefault(item["repo"], []).append(item)
+        by_repo.setdefault(item["repo"].lower(), []).append(item)
 
     scored = []
     for repo, items in by_repo.items():
