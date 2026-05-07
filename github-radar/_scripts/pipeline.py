@@ -82,6 +82,8 @@ def main():
         return 0
 
     successes = []  # list of (repo, post_dir, enriched)
+    filter_skips = 0
+    exception_failures = 0
     for repo in selected:
         try:
             print(f"\n[3/5] Enriching {repo} ...")
@@ -90,6 +92,7 @@ def main():
 
             if not passes_filters(enriched) and not args.force:
                 print(f"  filtered out (archived/fork/low stars): {repo}")
+                filter_skips += 1
                 continue
 
             print(f"[4/5] Generating article for {repo} ...")
@@ -109,11 +112,15 @@ def main():
         except Exception as e:
             print(f"  ERROR processing {repo}: {type(e).__name__}: {e}",
                   file=sys.stderr)
+            exception_failures += 1
             continue
 
     if not successes:
-        print("\nAll selected repos failed. No commit.")
-        return 1
+        if exception_failures > 0:
+            print(f"\nAll selected repos failed (exceptions: {exception_failures}). No commit.")
+            return 1
+        print(f"\nAll selected repos filtered out (filter_skips: {filter_skips}). No commit.")
+        return 0
 
     if args.dry_run:
         print(f"\n[dry-run] would have generated {len(successes)} posts.")

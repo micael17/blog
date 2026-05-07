@@ -1,5 +1,4 @@
 import io
-import json
 import os
 import tempfile
 import unittest
@@ -87,8 +86,40 @@ class TestPipelineMain(unittest.TestCase):
         with patch("sys.argv", ["pipeline.py", "--dry-run"]):
             buf = io.StringIO()
             with redirect_stdout(buf):
-                pipeline.main()
+                rc = pipeline.main()
         mock_generate.assert_not_called()
+        self.assertEqual(rc, 0)  # NEW: filter rejection is exit 0, not 1
+        self.assertIn("filtered out", buf.getvalue())
+
+    @patch("pipeline.enrich")
+    @patch("pipeline.collect_all")
+    def test_all_exceptions_returns_1(self, mock_collect, mock_enrich):
+        mock_collect.return_value = {"hn": [_hn("a/b", score=300, title="ai tool")],
+                                     "reddit": []}
+        mock_enrich.side_effect = RuntimeError("github api down")
+        with patch("sys.argv", ["pipeline.py", "--dry-run"]):
+            buf = io.StringIO()
+            with redirect_stdout(buf):
+                rc = pipeline.main()
+        self.assertEqual(rc, 1)
+
+    @patch("pipeline.generate_article")
+    @patch("pipeline.enrich")
+    @patch("pipeline.collect_all")
+    def test_force_bypasses_filters(self, mock_collect, mock_enrich, mock_generate):
+        # Empty candidates — force should still proceed
+        mock_collect.return_value = {"hn": [], "reddit": []}
+        mock_enrich.return_value = {"full_name": "x/y", "stars": 5,  # below 50
+                                    "is_fork": True, "archived": True,  # would normally fail
+                                    "readme": "x", "html_url": "http://gh",
+                                    "language": "Py", "license": "MIT"}
+        mock_generate.return_value = "# title\n\nbody"
+        with patch("sys.argv", ["pipeline.py", "--dry-run", "--force", "x/y"]):
+            buf = io.StringIO()
+            with redirect_stdout(buf):
+                rc = pipeline.main()
+        self.assertEqual(rc, 0)
+        mock_generate.assert_called_once()  # was reached despite filters
 
 
 if __name__ == "__main__":
