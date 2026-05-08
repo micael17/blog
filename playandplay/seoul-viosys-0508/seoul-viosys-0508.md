@@ -60,8 +60,6 @@ PER은 적자 영향으로 산출되지 않으며 EPS는 -336원이다.
 
 [블로터 - 서울바이오시스, 1분기 잠정 매출 1887억](https://n.news.naver.com/mnews/article/293/0000082829)
 
-[한국경제 - 신사업으로 '바닥 탈출'…서울반도체 부활하나](https://n.news.naver.com/mnews/article/015/0005281952)
-
 ---
 
 ## 차트
