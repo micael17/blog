@@ -38,12 +38,15 @@ def passes_filters(enriched):
 
 
 def git_commit_and_push(repo_root, files, message, dry_run=False):
-    """git add → commit → push. dry_run이면 출력만."""
+    """git add → commit → pull --rebase → push. dry_run이면 출력만."""
     if dry_run:
-        print(f"[dry-run] would commit + push: {message}")
+        print(f"[dry-run] would commit + pull --rebase + push: {message}")
         return
     subprocess.run(["git", "add"] + files, check=True, cwd=repo_root)
     subprocess.run(["git", "commit", "-m", message], check=True, cwd=repo_root)
+    # 매일 cron이 도는 동안 다른 머신/사용자가 같은 브랜치에 push했을 수 있음.
+    # github-radar 폴더와 다른 폴더의 변경은 충돌 없음. 충돌 시 raise되어 사람 개입 필요.
+    subprocess.run(["git", "pull", "--rebase"], check=True, cwd=repo_root)
     subprocess.run(["git", "push"], check=True, cwd=repo_root)
 
 
