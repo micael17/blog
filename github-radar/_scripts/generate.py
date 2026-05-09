@@ -234,7 +234,8 @@ def call_claude_cli(prompt, model="sonnet"):
     )
     if result.returncode != 0:
         sys.stderr.write(f"\n--- claude stderr ---\n{result.stderr}\n")
-        raise SystemExit(f"claude CLI failed (exit {result.returncode})")
+        sys.stderr.write(f"--- claude stdout (first 500 chars) ---\n{result.stdout[:500]}\n")
+        raise RuntimeError(f"claude CLI failed (exit {result.returncode})")
     return result.stdout
 
 
