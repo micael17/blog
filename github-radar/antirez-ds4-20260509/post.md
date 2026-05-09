@@ -1,15 +1,8 @@
-`★ Insight ─────────────────────────────────────`
+## Redis 창시자가 3일 만에 만든 로컬 AI 추론 엔진, ds4.c
 
 > **원본 레포**: [antirez/ds4](https://github.com/antirez/ds4) · ⭐ 3,360 · C · MIT
 > **Hacker News**: [483 pts, 152 comments](https://news.ycombinator.com/item?id=48050751)
 > **Reddit r/LocalLLaMA**: [112 pts, 46 comments](https://reddit.com/r/LocalLLaMA/comments/1t72tk9/ds4_a_deepseek_4_flash_specific_inference_engine/)
-
-antirez는 Redis 창시자 Salvatore Sanfilippo의 GitHub 계정입니다. 그가 직접 LLM 추론 엔진을 C로 작성했다는 것 자체가 이 프로젝트의 핵심 화제성입니다. README에 "GPT 5.5의 강력한 보조를 받아 개발했다"고 명시한 점도 이례적입니다.
-`─────────────────────────────────────────────────`
-
----
-
-## Redis 창시자가 3일 만에 만든 로컬 AI 추론 엔진, ds4.c
 
 ### TL;DR
 - Redis를 만든 antirez가 DeepSeek V4 Flash를 Mac에서 직접 돌리기 위해 C로 만든 초경량 추론 엔진.
@@ -114,10 +107,6 @@ exec "$HOME/.local/bin/claude" "$@"
 chmod +x ~/bin/claude-ds4
 ~/bin/claude-ds4
 ```
-
-`★ Insight ─────────────────────────────────────`
-디스크 KV 캐시 키는 토큰 ID의 SHA1 해시입니다. 텍스트가 아닌 토큰 단위로 키를 만들기 때문에, 동일한 프롬프트가 다시 들어오면 프리필을 건너뛰고 저장된 상태를 그대로 씁니다. Claude Code가 매 요청마다 보내는 ~25k 토큰 시스템 프롬프트가 첫 요청 이후 사실상 무료가 되는 이유입니다.
-`─────────────────────────────────────────────────`
 
 **실측 속도 (MacBook Pro M3 Max 128GB, q2 기준)**
 
