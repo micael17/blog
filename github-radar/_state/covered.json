@@ -1,1 +1,6 @@
-{}
+{
+  "antirez/ds4": "2026-05-09",
+  "lemonade-sdk/lemonade": "2026-05-09",
+  "microsoft/vscode": "2026-05-09",
+  "regent-vcs/re_gent": "2026-05-09"
+}
