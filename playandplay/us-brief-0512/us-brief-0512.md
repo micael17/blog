@@ -1,0 +1,86 @@
+# [미국 브리핑] 2026-05-12 (화) — S&P 500·나스닥 또 최고치 경신, 반도체 랠리 지속
+
+> - S&P 500 +0.19%, 나스닥 +0.10%, 다우 +0.19% — 3대 지수 모두 상승
+> - 반도체·기술주 강세 주도, 에너지·헬스케어 약세
+> - 트럼프, 이란 평화안 거부에 유가 급등… WTI $98.25 (+2.97%)
+
+---
+
+## 1. 지수 동향
+
+| 지수 | 종가 | 등락률 |
+|---|---|---|
+| S&P 500 | 7,412.84 | +0.19% |
+| NASDAQ | 26,274.12 | +0.10% |
+| 다우 | 49,704.47 | +0.19% |
+| WTI | $98.25 | +2.97% |
+| USD/KRW | 1,475.78 | +1.04% |
+
+S&P 500과 나스닥은 각각 2026년 15번째, 16번째 사상 최고치 마감. 다우도 소폭 상승하며 3대 지수 모두 플러스 마감했다. WTI는 트럼프 대통령이 이란의 수정된 평화 제안을 "전혀 받아들일 수 없다"며 거부하면서 3% 가까이 급등, $98선까지 올랐다. 달러/원 환율도 1,475원대까지 상승하며 원화 약세를 반영했다.
+
+---
+
+## 2. S&P 500 섹터 트리맵
+
+![SP500 sector treemap](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0512-sp500-treemap.png)
+
+기술(XLK)과 통신서비스(XLC) 섹터가 강세를 주도했다. 반도체·AI 관련주가 전반적으로 상승하며 기술 섹터는 견고한 흐름을 이어갔다. 반면 에너지(XLE)는 유가 급등에도 불구하고 차익 실현 및 M&A 관련 불확실성으로 약세를 보였다. 헬스케어(XLV)도 정부의 SSRI 항우울제 규제 검토 소식에 부진했다. 소재(XLB)와 산업재(XLI) 섹터는 보합권에서 혼조세를 기록했다.
+
+---
+
+## 3. NASDAQ-100 트리맵
+
+![NASDAQ-100 treemap](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0512-nasdaq-treemap.png)
+
+빅테크 전반이 고르게 상승했다. 마이크론(MU)은 AI HBM(고대역폭 메모리) 수요 확대에 힘입어 사상 최고가를 경신하며 6% 이상 급등했다. 엔비디아(NVDA)와 브로드컴(AVGO)도 강세를 보이며 AI 반도체 랠리를 주도했다. 반면 테슬라(TSLA)는 자율주행 규제 우려로 소폭 하락했다.
+
+---
+
+## 4. 주요 종목 동향
+
+### 4-1. 상승 종목
+
+- **코닝** (`GLW`, +10.80%): 뱅크오브아메리카가 코닝을 'US 1 List'에 추가하며 강력 매수 의견 제시. 엔비디아와의 광연결 파트너십과 2028년 매출 300억 달러 목표로 주가 급등.
+  출처: [Investing.com](https://www.investing.com/news/stock-market-news/why-is-corning-stock-surging-today-93CH-4677361)
+  ![GLW 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0512-glw-30d.png)
+
+- **마이크론** (`MU`, +6.52%): AI 데이터센터용 HBM 메모리 수요 급증 속에 DRAM ETF가 역대 최단 기간 65억 달러 자산 돌파. 마이크론은 사상 최고가 경신하며 반도체 섹터 랠리 주도.
+  출처: [Yahoo Finance](https://finance.yahoo.com/news/much-higher-micron-stock-2026-130500209.html)
+  ![MU 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0512-mu-30d.png)
+
+- **루멘텀** (`LITE`, +16.57%): AI 데이터센터 광통신 수요 급증에 Rothschild & Co Redburn이 목표가 $1,270으로 커버리지 개시. 나스닥-100 편입 기대감까지 더해지며 폭등.
+  출처: [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/northland-raises-price-target-lumentum-063105571.html)
+  ![LITE 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0512-lite-30d.png)
+
+### 4-2. 하락 종목
+
+- **쇼피파이** (`SHOP`, -7.21%): AI 기반 Q1 실적은 시장 예상을 상회했으나, 경쟁 심화와 2분기 가이던스가 기대에 미치지 못하며 하락. AI 툴 도입 효과에도 밸류에이션 부담 존재.
+  출처: [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/shopify-shop-down-13-4-151507322.html)
+  ![SHOP 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0512-shop-30d.png)
+
+- **코테라 에너지** (`CTRA`, -8.62%): Devon Energy와의 합병 완료 후 S&P 500 지수에서 제외되며 매도 압력. 합병 차익거래 청산과 $0.28 EPS 미달 실적이 하락 요인.
+  출처: [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/devon-energy-completes-58bn-merger-144921166.html)
+  ![CTRA 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-0512-ctra-30d.png)
+
+---
+
+## 5. 주요 뉴스
+
+- S&P 500·나스닥, 이란 불확실성 속에도 사상 최고치 마감… 반도체·AI 랠리 주도 — [Yahoo Finance](https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-11-oil-rise-trump-rejects-peace-225625559.html)
+
+- 트럼프, 이란 평화안 "전혀 받아들일 수 없다" 거부… WTI $100 돌파 임박, 호르무즈 봉쇄 3개월째 — [CNBC](https://www.cnbc.com/2026/05/08/stock-market-next-week-outlook-for-may-11-15-2026-.html)
+
+- JP모건 프라이빗 뱅크 "AI 슈퍼사이클은 이제 시작"… 데이터센터·에너지 인프라·하이퍼스케일러 3대 투자 테마 제시 — [Yahoo Finance](https://finance.yahoo.com/markets/article/stock-market-today-dow-rises-sp-500-and-nasdaq-notch-fresh-records-as-war-resolution-hopes-grow-230116826.html)
+
+---
+
+## 6. 오늘 국장 영향
+
+- WTI $98 돌파 → 국내 정유·화학주 단기 모멘텀 기대. 다만 코테라 에너지 합병 이슈에서 보듯 에너지 섹터 변동성 확대 구간
+- 마이크론·엔비디아 등 반도체 강세 → 삼성전자·SK하이닉스 동반 상승 가능성. AI HBM 수급 타이트 지속
+- USD/KRW 1,475원 상승 → 수출주(자동차·배터리) 수혜 예상. 원화 약세는 외국인 자금 유입 둔화 요인
+- 이날 밤 4월 CPI 발표 예정(컨센서스 3.9%) → 인플레 서프라이즈 시 긴축 우려로 코스피 변동성 확대 가능
+
+---
+
+* 본 포스팅은 개인 의견이며 투자 판단의 책임은 본인에게 있습니다.
