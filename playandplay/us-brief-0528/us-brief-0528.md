@@ -1,0 +1,125 @@
+![썸네일](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-20260528-thumbnail.png)
+
+# [미국 브리핑] 2026-05-28 (목) — S&P·NASDAQ 사상 최고치 경신, Micron $1T 클럽 합류
+
+> **간밤 뉴욕 증시 요약**: S&P 500과 NASDAQ이 사상 최고치를 경신했다. Micron이 시가총액 $1조를 돌파하며 반도체 업종 강세를 주도했고, AppLovin과 Cerebras도 AI 테마 속 급등했다. 반면 보스턴 사이언티픽은 실적 전망 하향에 12% 급락했고, PDD 홀딩스는 실적 실망에 10% 빠졌다. 국제유가는 이란 협상 기대감에 $90 아래로 하락했다.
+
+---
+
+## 1. 지수 동향
+
+| 지수 | 종가 | 전일비 | 등락률 |
+|------|------|--------|--------|
+| S&P 500 | 7,520.36 | +1.24 | **+0.02%** |
+| NASDAQ | 26,674.73 | +18.55 | **+0.07%** |
+| 다우존스 | 50,644.28 | +182.60 | **+0.36%** |
+| WTI 원유 | $89.41 | -$4.48 | **-4.77%** |
+| 달러/원 | 1,499.97 | -5.47 | **-0.36%** |
+| VIX | 16.29 | -0.72 | **-4.23%** |
+
+> S&P 500과 NASDAQ이 나란히 사상 최고치를 기록했다. Micron의 $1조 시총 돌파 소식에 반도체 업종 전반이 강세를 보였고, AI 관련주의 랠리가 지수 상승을 견인했다. WTI 원유는 이란 협상 기대감으로 $90 밑으로 급락하며 4.77% 하락했다. VIX는 16.29로 낮은 변동성 수준을 유지했다.
+
+---
+
+## 2. S&P 500 섹터 트리맵
+
+![S&P 500 섹터 트리맵](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-20260528-sp500-treemap.png)
+
+*S&P 500 섹터별 전일 등락률. 그린(양수) / 레드(음수)로 표시.*
+
+---
+
+## 3. NASDAQ-100 트리맵
+
+![NASDAQ-100 트리맵](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-20260528-nasdaq-treemap.png)
+
+*NASDAQ-100 주요 30종목 전일 등락률. 반도체·AI 종목 강세 뚜렷.*
+
+---
+
+## 4. 주요 종목 동향
+
+### ✅ 상승 종목
+
+#### 마이크론 테크놀로지 (MU) **+3.63%** (종가 $928.41)
+
+마이크론이 시가총액 $1조를 돌파했다. AI 붐에 따른 메모리 반도체 수요 급증이 주가를 끌어올렸다. UBS는 마이크론에 대한 목표주가를 3배 이상 상향 조정하며 "AI 거대 기업으로 성장할 것"이라고 평가했다.
+
+> [[출처] Micron surges: Where the $1T memory chipmaker fits into AI trade](https://finance.yahoo.com/video/micron-surges-where-the-1t-memory-chipmaker-fits-into-ai-trade-195524579.html)
+> [[출처] Micron briefly tops $1T as UBS sees it becoming a $1.8T AI giant](https://finance.yahoo.com/markets/article/micron-briefly-tops-1-trillion-as-ubs-sees-it-becoming-a-18-trillion-ai-giant-134443291.html)
+
+![MU 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-20260528-MU-30d.png)
+
+#### 앱러빈 (APP) **+10.42%** (종가 $567.83)
+
+앱러빈이 10% 이상 급등했다. 메타 플랫폼과의 경쟁 완화와 AXON e-commerce 플랫폼 출시 기대감이 주요 상승 요인으로 작용했다. 내부자 지분율 27.4%로 경영진과 주주 이익이 일치한다는 점도 긍정적 평가를 받았다.
+
+> [[출처] Why AppLovin Rallied Today](https://finance.yahoo.com/m/0ea880ba-0464-3b6a-a36c-add0c6e0af33/why-applovin-rallied-today.html)
+
+![APP 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-20260528-APP-30d.png)
+
+#### 세레브라스 시스템즈 (CBRS) **+10.42%** (종가 $266.90)
+
+AI 반도체 기업 세레브라스 시스템즈가 10% 급등했다. AI 칩 수요 급증과 함께 투자자들의 관심이 집중됐다.
+
+> [[출처] Why Cerebras Stock Is Rocketing Higher Today](https://finance.yahoo.com/markets/stocks/articles/why-cerebras-stock-rocketing-higher-193018131.html)
+
+![CBRS 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-20260528-CBRS-30d.png)
+
+---
+
+### ❌ 하락 종목
+
+#### 보스턴 사이언티픽 (BSX) **-12.46%** (종가 $50.46)
+
+보스턴 사이언티픽이 12% 급락했다. CEO가 예상보다 부진한 실적과 FY26 매출 가이던스 하향을 시사한 것이 결정타였다. WATCHMAN 사업 둔화와 전기생리학·비뇨기과 부문의 경쟁 압력이 주요 원인으로 지목됐다.
+
+> [[출처] Stock Market Today: Boston Scientific Plunges After Reiterating Underwhelming Full Year Growth Guidance](https://finance.yahoo.com/markets/stocks/articles/stock-market-today-boston-scientific-plunges-full-year-180328575.html)
+
+![BSX 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-20260528-BSX-30d.png)
+
+#### PDD 홀딩스 (PDD) **-10.38%** (종가 $86.61)
+
+PDD 홀딩스가 10% 급락했다. Q1 2026 실적이 매출과 이익 모두 시장 예상을 하회하면서 투심이 급격히 악화됐다. Temu 모회사로서의 성장 둔화 우려가 반영된 모습이다.
+
+> [[출처] PDD Holdings shares slide after revenue and profit miss](https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-shares-slide-revenue-163200231.html)
+
+![PDD 30일 일봉](https://raw.githubusercontent.com/micael17/enterprise-agent-assets/main/images/us-brief-20260528-PDD-30d.png)
+
+---
+
+## 5. 주요 뉴스
+
+### 📰 시장 전반
+
+1. **S&P 500·NASDAQ 사상 최고치 경신, 유가 하락** — 다우·S&P 500·나스닥이 모두 사상 최고치를 기록했다. 국제유가는 이란과의 협상 기대감으로 급락했다.
+   > [Stock Market Today: Dow, S&P 500, Nasdaq post record highs as oil prices drop](https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-post-record-highs-as-oil-prices-drop-222255743.html)
+
+2. **미국 휘발유 $5 위협 — 호르무즈 해협 봉쇄 여파** — 한 애널리스트는 호르무즈 해협 물류 차질이 지속될 경우 올여름 미국 휘발유 가격이 갤런당 $5까지 치솟을 수 있다고 경고했다.
+   > [America's $5 gas threat is back — and it runs through the Strait of Hormuz](https://finance.yahoo.com/markets/article/gas-prices-could-hit-5-a-gallon-this-summer-unless-hormuz-flows-resume-analyst-says-171603809.html)
+
+3. **백악관 "호르무즈 해협 재개 시 유가 하락"…애널리스트들은 회의적** — 백악관이 호르무즈 해협 재개방 시 에너지 가격이 하락할 것이라고 주장했지만, 애널리스트들은 단기적 변동성 확대를 경고했다.
+   > [White House promises lower energy prices... analysts say prepare for a Hormuz hangover](https://finance.yahoo.com/sectors/energy/article/white-house-promises-lower-energy-prices-as-soon-as-the-straits-are-open-but-analysts-say-to-prepare-for-a-hormuz-hangover-161207155.html)
+
+4. **스페이스X IPO 대기, ETF 시장 재편 중** — 아직 상장되지 않은 스페이스X를 둘러싼 ETF 경쟁이 격화되고 있다. 여러 ETF 운용사가 스페이스X 익스포저를 포함한 상품을 출시하며 시장 재편을 주도하고 있다.
+   > [SpaceX is not yet public, but the race to own it is already rearranging the ETF market](https://finance.yahoo.com/markets/article/spacex-is-powering-a-new-etf-race-chart-of-the-day-100000512.html)
+
+---
+
+## 6. 오늘 국장 영향
+
+| 요인 | 영향 |
+|------|------|
+| **Micron $1T 돌파** → 국내 반도체(Hynix, 삼성전자)에 긍정적 시그널 | ✅ 국내 반도체주 강세 예상 |
+| **NASDAQ 사상 최고치** → 국내 2차전지·AI 테마 동조화 가능 | ✅ 성장주 투심 개선 |
+| **WTI $89.41 급락** → 정유주 약세, 원자재 관련주 혼조 | ⚠️ 에너지 업종 약세 |
+| **BSX·PDD 급락** → 헬스케어·중국 소비 섹터 리스크 | ⚠️ 동종 업종 주의 |
+| **달러/원 1,499.97 (-0.36%)** → 원화 강세, 외국인 수급 긍정 | ✅ 외국인 순매수 기대 |
+| **VIX 16.29 (-4.23%)** → 시장 안정, 위험 선호 지속 | ✅ 투심 양호 |
+
+> **코멘트**: 전일 S&P 500과 NASDAQ의 동반 사상 최고치는 국내 증시에도 긍정적인 영향을 줄 것으로 예상된다. 특히 Micron의 $1조 클럽 합류는 SK하이닉스와 삼성전자에 우호적인 재료다. 다만 전일 국내 증시에서 외국인이 3,600억원 순매도한 점은 부담 요인이나, 달러 약세(원화 강세) 전환은 외국인 수급에 긍정적이다. 이란 협상에 따른 유가 하락은 정유주에 부정적이나, 항공·운송 업종에는 호재다.
+
+---
+
+*본 포스트는 투자 추천이 아닌 정보 제공 목적입니다.*
+*데이터 출처: Yahoo Finance, yfinance*
